@@ -11,5 +11,5 @@ with open(import_file, "r") as file:
       ip_addresses.remove(element)
 
   ip_addresses = "\n".join(ip_addresses)
-  with open(import_file, "w") as import_file:
+  with open(import_file, "w") as file:
     file.write(ip_addresses)
